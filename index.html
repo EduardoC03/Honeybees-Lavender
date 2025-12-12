@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <title>Honeybees + Lavender Coffee</title>
+</head>
+
+<body>
+    <!-- Logo + Nav -->
+    <header>
+        <div class="logo"></div>
+        <!-- Hamburger Menu -->
+         <input type="checkbox" name="hamburger" id="hamburger">
+         <label for="hamburger">&#9776;</label>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="drinks.html">Drinks</a>
+                    <ul class="nav_dropdown">
+                        <li><a href="drinks.html#seasonaldrinks">Seasonal Drinks</a></li>
+                        <li><a href="drinks.html#colddrinks">Cold Drinks</a></li>
+                        <li><a href="drinks.html#hotdrinks">Hot Drinks</a></li>
+                    </ul>
+                </li>
+                <li><a href="pastries.html">Pastries</a>
+                    <ul class="nav_dropdown">
+                        <li><a href="pastries.html#sweetpastries">Sweet Pastries</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Banner -->
+        <div class="Banner">
+            <div class="Banner-content">
+                <h1>Honeybees + Lavender</h1>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="Content-section1">
+            <div class="section-wrapper1">
+                <div class="Content-image slideshow">
+                    <img src="./images/Seasonal2.png" alt="" class="">
+                    <img src="./images/Seasonal1.jpg" alt="" class="">
+                    <img src="./images/Seasonal3.jpg" alt="" class="">
+                </div>
+                <div class="text-right">
+                    <h2>New Seasonal Drinks</h2>
+                    <p>
+                        Our latest seasonal creations have arrived, crafted with fresh flavors and cozy ingredients
+                        perfect for the changing weather.
+                    </p>
+                    <a href="drinks.html#seasonaldrinks" class="item-btn">Explore Seasonal Drinks</a>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="Content-section2">
+                <div class="section-wrapper2">
+                    <div class="text-right">
+                        <h2>Fresh Pastries</h2>
+                        <p>
+                            Treat yourself to our daily selection of freshly baked pastries, made to pair perfectly with any drink.
+                        </p>
+                        <a href="pastries.html#sweetpastries" class="item-btn">Explore Pastries</a>
+                    </div>
+                    <div class="Content-image slideshow">
+                        <img src="./images/pastries1.jpg" alt="">
+                        <img src="./images/pastries2.jpg" alt="">
+                        <img src="./images/pastries3.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="Footer">
+        <div class="Footer-section">
+            <p class="copyright">
+                &copy; 2024 Honeybees + Lavender Coffee. All rights reserved.
+            </p>
+            <a href="https://www.instagram.com/honeybeesnlavender/" target="_blank" class="insta-link">
+                <img src="images/instagram.png" alt="Instagram icon">
+            </a>
+        </div>
+    </footer>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
